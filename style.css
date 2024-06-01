@@ -120,11 +120,15 @@ header{
 }
 
 .section-title{
+  font-size: 2rem;
+  padding-top: 1.5rem;
   font-style: 1.5rem;
   font-weight: 600;
   text-align: center;
   margin-bottom: 1.5rem;
+  color: var(--sec-color)
 }
+
 
 .shop-content{
   display: grid;
@@ -135,6 +139,11 @@ header{
 .product-box{
   position: relative;
   transition: .5s ease-in-out;
+
+}
+.product-box h2{
+  text-align: center;
+  padding-top: 15px;
 
 }
 
@@ -179,6 +188,23 @@ header{
   background-color: var(--sec-color);
   color: var(--text-color);
 }
+
+
+.tittle-categories h2{  
+  font-size: 2rem;
+  text-align: center;
+  padding-top: 1.5rem;
+  color: var(--sec-color)
+}
+.categories {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, auto));
+  padding: 15px;
+
+
+}
+
+
 
 /* RESPONSIVE */
 
