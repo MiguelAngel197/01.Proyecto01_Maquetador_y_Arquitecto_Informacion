@@ -267,6 +267,7 @@ header{
 }
 
 .footernav{
+  width: 100%;
   border: 1px solid;
   color: var(--sec-color);
   grid-template-columns: repeat(auto-fit, 250px);
