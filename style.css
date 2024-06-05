@@ -231,7 +231,7 @@ header{
 }
 
 /* PARA DISPOSITIVOS MEDIANOS */
-@media (max-width: 400px){
+@media (max-width: 445px){
   .nav{
     padding: 11px;
   }
@@ -282,7 +282,7 @@ header{
 
 }
 
-#iconorrss{
+.iconorrss{
   margin-top: var(--espacio-10px);
   width: 40px;
   height: 40px;
